@@ -11,7 +11,7 @@ namespace Stores.Shared.Entities
     {
         // Para la base de datos
         public int Id { get; set; }
-        [Display(Name = "País")]
+        [Display(Name = "País")] //{0}
         [MaxLength(100, ErrorMessage = "Cuidado, el campo {0} solo puede contener {1} caracteres")]
         [Required(ErrorMessage = "* El campo {0} es obligatorio")]
         public string Name { get; set; } = null!;
