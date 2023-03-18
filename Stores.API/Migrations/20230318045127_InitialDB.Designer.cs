@@ -11,8 +11,8 @@ using Stores.API.Data;
 namespace Stores.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230313030218_Inicial")]
-    partial class Inicial
+    [Migration("20230318045127_InitialDB")]
+    partial class InitialDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
